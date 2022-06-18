@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plot
 
-
 _graph = input("Enter math function to plot graph for: ")
 if _graph == 'sine': 
     x = np.arange(0, 20, 0.1);
